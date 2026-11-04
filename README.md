@@ -24,7 +24,7 @@ Each writeup follows the same structure:
 ## Index
 | Challenge | Platform | Category | Tools | Writeup |
 |-----------|----------|----------|-------|---------|
-| *(add as you go)* | | | | |
+| *(Pending)* | | | | |
 
 ## Notes
 Flags and solutions for active or competitive events are not published. Writeups cover retired or practice challenges only.
