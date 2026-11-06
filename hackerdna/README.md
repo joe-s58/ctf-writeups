@@ -7,7 +7,7 @@ Write-ups for labs and challenges completed on [HackerDNA](https://hackerdna.com
 | Folder | Purpose |
 |--------|---------|
 | [ctf-challenges](./ctf-challenges) | General CTF-style labs: multi-step machines and applications where the goal is to find flags through enumeration, exploitation, and privilege escalation |
-| [jwt-privilege-escalation](./jwt-privilege-escalation | Labs focused on JSON Web Token security: token tampering, weak secrets, algorithm confusion, and role-based privilege escalation |
+| [jwt-privilege-escalation](./jwt-privilege-escalation) | Labs focused on JSON Web Token security: token tampering, weak secrets, algorithm confusion, and role-based privilege escalation |
 
 ## Notes
 
