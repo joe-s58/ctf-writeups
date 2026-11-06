@@ -1,15 +1,13 @@
-# JWT-Challenges
+# HackerDNA - Challenges
 
-Write-ups for general JWT style labs on HackerDNA.
+Write-ups for labs and challenges completed on [HackerDNA](https://hackerdna.com), a hands-on cybersecurity training platform.
 
-## What this folder is for
+## Contents
 
-These challenges are typically full attack chains rather than a single bug. A typical lab might involve:
-
-- Enumerating services, directories, and hidden content
-- Finding and exploiting a web or application vulnerability
-- Cracking credentials or hashes
-- Escalating privileges to capture the final flag
+| Folder | Purpose |
+|--------|---------|
+| [ctf-challenges](./ctf-challenges) | General CTF-style labs: multi-step machines and applications where the goal is to find flags through enumeration, exploitation, and privilege escalation |
+| [jwt-privilege-escalation](./jwt-privilege-escalation | Labs focused on JSON Web Token security: token tampering, weak secrets, algorithm confusion, and role-based privilege escalation |
 
 ## Notes
 
