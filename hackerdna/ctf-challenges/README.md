@@ -1,6 +1,6 @@
 # CTF-Challenges
 
-Write-ups for general CTF-style labs on HackerDNA.
+Write-ups for general CTF style labs on HackerDNA.
 
 ## What this folder is for
 
