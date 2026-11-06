@@ -1,6 +1,8 @@
 # CTF Writeups
 
-Writeups from forensics and blue-team challenges I work through to build SOC and DFIR skills. Each one documents the process (what I looked at, why, and what I found), not just the answer.
+My personal collection of Capture The Flag (CTF) write-ups, notes, and lessons learned.
+
+Writeups include forensics and blue team challenges I work through to build my SOC, NOC and DFIR skills. Each one documents the process (what I looked at, why, and what I found), and not just the answer.
 
 ## Focus areas
 - Log analysis and timeline reconstruction
@@ -8,13 +10,13 @@ Writeups from forensics and blue-team challenges I work through to build SOC and
 - Memory and disk forensics
 - Alert triage and investigation
 
-## Structure
+## Structure of sub folders when needed
 - `/forensics`: log, PCAP, memory, and disk challenges
 - `/triage`: alert-to-resolution walkthroughs
 - `/templates`: the writeup template I use
 
-## Writeup format
-Each writeup follows the same structure:
+## The writeup format
+Each writeup follows a similar structure:
 1. **Scenario**: what the challenge presents
 2. **Approach**: tools used and why
 3. **Findings**: evidence, with commands and screenshots
@@ -27,4 +29,10 @@ Each writeup follows the same structure:
 | *(Pending)* | | | | |
 
 ## Notes
-Flags and solutions for active or competitive events are not published. Writeups cover retired or practice challenges only.
+
+Flags and solutions for active or competitive events are not published. Write-ups cover retired or practice challenges only. All notes and Information are my own summaries. There is no exam questions, and no copyrighted course material is included.
+
+## Disclaimer
+
+All content here relates to intentionally vulnerable labs and CTF environments where testing is explicitly permitted. Do not use these techniques against systems you do not own or have written authorization to test.
+
