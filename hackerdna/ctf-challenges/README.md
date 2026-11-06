@@ -1,4 +1,4 @@
-# CTF
+# CTF-Challenges
 
 Write-ups for general CTF-style labs on HackerDNA.
 
@@ -11,6 +11,10 @@ These challenges are typically full attack chains rather than a single bug. A ty
 - Cracking credentials or hashes
 - Escalating privileges to capture the final flag
 
-## Write-up Format
+## Notes
 
-Each write-up is a separate Markdown file named after the lab, covering the approach, key commands, the flag-finding path, and the lessons learned.
+Flags and solutions for active or competitive events are not published. Write-ups cover retired or practice challenges only. All notes and Information are my own summaries. There is no exam questions, and no copyrighted course material is included.
+
+## Disclaimer
+
+All content here relates to intentionally vulnerable labs and CTF environments where testing is explicitly permitted. Do not use these techniques against systems you do not own or have written authorization to test.
