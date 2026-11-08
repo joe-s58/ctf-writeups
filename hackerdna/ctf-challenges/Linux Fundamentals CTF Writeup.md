@@ -1,4 +1,4 @@
-# Linux Fundamentals Practice - Lab Writeup
+# Linux Fundamentals Practice - CTF Writeup
 
 Date: 06 Nov 2026 14:50
 
