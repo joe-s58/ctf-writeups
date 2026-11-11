@@ -11,7 +11,7 @@ Write-ups for labs and challenges completed on [HackerDNA](https://hackerdna.com
 
 ## Notes
 
-Flags and solutions for active or competitive events are not published. Write-ups cover retired or practice challenges only. All notes and Information are my own summaries. There is no exam questions, and no copyrighted course material is included.
+Flags and solutions for active or competitive events are not published. Write-ups cover retired or practice challenges only. All notes and Information are my own summaries. There is no exam questions, and no copyrighted course material is included.  Where necessary all paths, filename and file content is redacted.
 
 ## Disclaimer
 
