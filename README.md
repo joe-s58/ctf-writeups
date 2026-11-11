@@ -26,7 +26,7 @@ Each writeup follows a similar structure:
 ## Index
 | Challenge | Platform | Category | Tools | Writeup |
 |-----------|----------|----------|-------|---------|
-| Linux CTF | HackerDNA | CTF | Linux, SSH | hackerdna/ctf-challenges/Linux Fundamentals CTF Writeup.md |
+| Linux CTF | HackerDNA | CTF | Linux, SSH | [Linux Fundamentals CTF](hackerdna/ctf-challenges/Linux Fundamentals CTF Writeup.md) |
 
 ## Notes
 
