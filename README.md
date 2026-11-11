@@ -31,7 +31,7 @@ Each writeup follows a similar structure:
 
 ## Notes
 
-Flags and solutions for active or competitive events are not published. Write-ups cover retired or practice challenges only. All notes and Information are my own summaries. There is no exam questions, and no copyrighted course material is included.
+Flags and solutions for active or competitive events are not published. Write-ups cover retired or practice challenges only. All notes and Information are my own summaries. There are no exam questions, and no copyrighted course material included.  When needed paths, filename and file content is redacted.
 
 ## Disclaimer
 
