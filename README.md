@@ -1,4 +1,4 @@
-# CTF Writeups
+# CTF and JWT Writeups
 
 My personal collection of Capture The Flag (CTF) write-ups, notes, and lessons learned.
 
@@ -26,7 +26,7 @@ Each writeup follows a similar structure:
 ## Index
 | Challenge | Platform | Category | Tools | Writeup |
 |-----------|----------|----------|-------|---------|
-| *(Pending)* | | | | |
+| Linux CTF | HackerDNA | CTF | Linux, SSH | hackerdna/ctf-challenges/Linux Fundamentals CTF Writeup.md |
 
 ## Notes
 
