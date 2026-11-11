@@ -4,7 +4,7 @@ Date: 06 Nov 2026 14:50
 
 ## The Scenario
 
-A developer vanished, abandoning their Linux workstation. Word around the office is they hid something important before leaving. Your mission: SSH in and use your command-line skills to uncover the secret.
+A developer disappeared abandoning their Linux workstation. Word around the office is they hid something important before leaving. My mission: SSH in and use my command line skills to uncover the secret.
 
 ## Approach
  
@@ -36,7 +36,7 @@ If using curl, things to search for are a key/value pair for anything with a use
 
 Once I had the login information, I was able to ssh into the system.
 
-Traversing the user’s home directory revealed a sequence of hidden directories (files with  "." before the file name). You need to use the ls -a or ls -la to view hidden files. This ultimately provided access to the target file, which was also a hidden file.
+Traversing the user’s home directory revealed a sequence of hidden directories (files with  "." before the file name). You need to use the 'ls -a' or 'ls -la' to view hidden files. This ultimately disclosed the target file, which was also a hidden file.
 
 ## Timeline / IOCs
 
@@ -48,11 +48,18 @@ indicators of compromise (IOCs) a defender could use to detect the same activity
 | Step | Action | Evidence |
 |------|--------|----------|
 | 1 | Find the username and password | use the ip address and use the web or curl to read the user data in the html|
-| 2 | Confirm ssh is available on the target | use nmap to confirm port, not really needed in this ctf as it was listed in the html |
-| 3 | Login as the user via ssh | do recon in the users home directory structure looking for a flag file |
+| 2 | Confirm ssh is available on the target | use 'nmap' to confirm port, not really needed in this CTF as the port number was listed in the html |
+| 3 | Login as the user via ssh | do recon via enumeration in the users home directory structure looking for a flag file |
 | 4 | View and copy the flag and submit it for the challenge | cat "filename" to view the file |
 
 
 ## Takeaway
 
 As demonstrated in the laboratory exercise, not all data is immediately visible; however, hidden files are readily identifiable and accessible. Utilizing hidden files for storing sensitive information reflects poor data stewardship and inadequate privacy protection.
+
+
+This CTF demonstrates my ability to use Linux, SSH, file system navigation, file Enumeration, and CTF
+
+
+## Link to Challange
+[Linux Fundamentals Practice](https://hackerdna.com/labs/linux-fundamentals)
