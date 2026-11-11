@@ -127,3 +127,6 @@ This is a classic file misconfiguration privilege escalation, an administrator s
 
 
 This CTF demonstrates my ability to use Linux, SSH, file Enumeration, view and understand cron job configuration, creating a Privilege Escalation and do the final Analysis in locating the flaw.
+
+## Link to Challange
+[Scheduled Sabotage](https://hackerdna.com/labs/scheduled-sabotage)
