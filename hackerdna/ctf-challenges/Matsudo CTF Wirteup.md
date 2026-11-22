@@ -131,7 +131,7 @@ indicators of compromise (IOCs) a defender could use to detect the same activity
 | 3 | Login as the user via SSH | do recon via enumeration in the users home directory structure looking for a user flag |
 | 4 | View and copy the user flag and submit it for the challenge | `cat "filename"` to view the flag file |
 | 5 | Find a way to run sudo | sudo version 1.9.12p1 was identified as potentially vulnerable to CVE-2023-22809 |
-| 6 | sudoedit to view the root flag | `sudoedit /root/XXXX-XXXX.tx` |
+| 6 | sudoedit to view the root flag | `sudoedit /root/XXXX-XXXX.txt` |
 
 ## Takeaway
 
