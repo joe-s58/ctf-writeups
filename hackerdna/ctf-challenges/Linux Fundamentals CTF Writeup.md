@@ -8,7 +8,7 @@ A developer disappeared abandoning their Linux workstation. Word around the offi
 
 ## Approach
  
-Since the device IP is know, I started with a simple enumeration to find the developer's username and passwordd using http://target
+Since the device IP is know, I started with a simple enumeration to find the developer's username and passwordd using `http://target`
 
 ## Findings
 
