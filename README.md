@@ -28,7 +28,7 @@ Each writeup follows a similar structure:
 |-----------|----------|----------|-------|---------|
 | Linux CTF | HackerDNA | CTF | Linux, SSH | [Linux Fundamentals CTF](https://github.com/joe-s58/ctf-writeups/blob/5de4d5147a919cf9f14e0461313f7893f94464fc/hackerdna/ctf-challenges/Linux%20Fundamentals%20CTF%20Writeup.md) |
 | Scheduled Sabotage | HackerDNA | CTF | Linux, SSH, RCE | [Schedule Sabotage](https://github.com/joe-s58/ctf-writeups/blob/5de4d5147a919cf9f14e0461313f7893f94464fc/hackerdna/ctf-challenges/Scheduled%20Sabotage%20Writeup.md) |
-| Matsudo | HackerDNA | CTF | Network Recon, Linux, SSH, Hydra | [Matsudo]([hackerdna/ctf-challenges/Matsudo CTF Writeup.md](https://github.com/joe-s58/ctf-writeups/blob/316ebbd310c595f7b43dd4c0ba1903e2ac90bd41/hackerdna/ctf-challenges/Linux%20Fundamentals%20CTF%20Writeup.md)) | 
+| Matsudo | HackerDNA | CTF | Network Recon, Linux, SSH, Hydra | [Matsudo](https://github.com/joe-s58/ctf-writeups/blob/34312c22d95d44316a8941a1ee4c9fb15e688fcc/hackerdna/ctf-challenges/Matsudo%20CTF%20Writeup.md)| 
 
 ## Notes
 
